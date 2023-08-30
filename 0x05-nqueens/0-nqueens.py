@@ -3,7 +3,6 @@
 """
 import sys
 
-
 solutions = []
 """The list of possible solutions to the N queens problem.
 """
@@ -89,6 +88,7 @@ def build_solution(row, group):
             if not any(used_positions):
                 build_solution(row + 1, group)
             group.pop(len(group) - 1)
+
 
 
 def get_solutions():
