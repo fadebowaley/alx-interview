@@ -1,8 +1,5 @@
-#!/usr/bin/python3
-"""N queens solution finder module.
-"""
+#!/usr/bin/env python3
 import sys
-
 
 solutions = []
 """The list of possible solutions to the N queens problem.
