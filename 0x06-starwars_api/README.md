@@ -1,1 +1,1 @@
-starwars characters
+starwars API excercise
